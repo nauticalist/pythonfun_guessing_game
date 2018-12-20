@@ -26,10 +26,10 @@ def play_game():
         response = get_guess()
         if response > answer:
             attempts += 1
-            print("# It is higher!")
+            print("# It is lower!")
         elif response < answer:
             attempts += 1
-            print("# It is lower!")
+            print("# It is higher!")
         else:
             attempts += 1
             print("-" * 30)
